@@ -24,10 +24,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "credentials/SupportiyoApi.credentials.ts"
+      "dist/credentials/SupportiyoApi.credentials.js"
     ],
     "nodes": [
-      "nodes/Supportiyo/Supportiyo.node.ts"
+      "dist/nodes/Supportiyo/Supportiyo.node.js"
     ]
   },
   "devDependencies": {
