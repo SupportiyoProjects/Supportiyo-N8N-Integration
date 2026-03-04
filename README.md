@@ -1,6 +1,6 @@
 # n8n-nodes-supportiyo
 
-This is an n8n community node that lets you use the [Supportiyo](https://supportiyo.com) API in your n8n workflows.
+This is an n8n community node that lets you use the [Supportiyo](https://supportiyo.ai) API in your n8n workflows.
 
 Supportiyo is a scheduling and appointment management platform. This node allows you to retrieve appointment data and use it in your automations.
 
@@ -22,14 +22,14 @@ To use this node, you need a Supportiyo API key. Set up your credentials with:
 
 ### Filters
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| Business Info ID | String | Filter by business |
-| Status | String | Filter by appointment status |
-| Start Date | DateTime | Filter from this date |
-| End Date | DateTime | Filter up to this date |
-| Limit | Number | Max results to return (default: 10) |
-| Offset | Number | Number of results to skip for pagination |
+| Parameter        | Type     | Description                              |
+| ---------------- | -------- | ---------------------------------------- |
+| Business Info ID | String   | Filter by business                       |
+| Status           | String   | Filter by appointment status             |
+| Start Date       | DateTime | Filter from this date                    |
+| End Date         | DateTime | Filter up to this date                   |
+| Limit            | Number   | Max results to return (default: 10)      |
+| Offset           | Number   | Number of results to skip for pagination |
 
 ## Compatibility
 
