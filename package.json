@@ -3,10 +3,10 @@
   "version": "0.1.6",
   "description": "n8n community node for the Supportiyo API",
   "license": "MIT",
-  "homepage": "https://github.com/<your-username>/n8n-nodes-supportiyo",
+  "homepage": "https://github.com/SupportiyoProjects/Supportiyo-N8N-Integration",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-username>/n8n-nodes-supportiyo.git"
+    "url": "https://github.com/SupportiyoProjects/Supportiyo-N8N-Integration.git"
   },
   "author": {
     "name": "Supportiyo",
@@ -24,10 +24,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "src/credentials/SupportiyoApi.credentials.ts"
+      "credentials/SupportiyoApi.credentials.ts"
     ],
     "nodes": [
-      "src/nodes/Supportiyo/Supportiyo.node.ts"
+      "nodes/Supportiyo/Supportiyo.node.ts"
     ]
   },
   "devDependencies": {
